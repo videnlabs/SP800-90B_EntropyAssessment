@@ -117,6 +117,10 @@ To cross-compiling for a different CPU architecture, set `ARCH` and `CROSS_COMPI
 
     make ARCH=aarch64 CROSS_COMPILE=aarch64-linux-gnu-
 
+## Dockerfile
+Viden have added a dockerfile to allow containerisation.
+To build the image, run `docker build -t viden/entropy` and then run `docker run -d --name entropy viden/entropy`
+
 ## More Information
 
 For more information on the estimation methods, see [SP 800-90B](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90B.pdf).
